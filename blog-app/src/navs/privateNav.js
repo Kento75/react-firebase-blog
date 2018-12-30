@@ -22,7 +22,7 @@ export const publicNavs = [
   },
 ];
 
-export default  () => (
+export default () => (
   publicNavs.map((navItem) => {
     return <NavLink to={navItem.url} className="NavLinkItem" key={navItem.url} activeClassName="NavLinkItem-selected">
              <List component="nav">
